@@ -1,0 +1,87 @@
+body {
+    background-color:#f0f2f5;
+    padding: 72px 0px 112px;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.header {
+    width: 500px;
+}
+
+.header img{
+    width:25em;
+}
+
+.header h3 {
+    color: #1c1e21;
+    font-family: Arial, Helvetica, sans-serif;
+    font: size 24px;z
+}
+.inputs {
+    width:350px;
+    padding: 35px;
+    text-align: center;
+    background: #fff;
+    margin-left: 60px;
+    box-shadow: #ffffff;
+}
+
+.inputs input {
+    width: 100%;
+    padding: 15px;
+     font-size: 18px;
+     box-sizing: border-box;
+    border:1px solid #eeebeb ;
+    outline:none ;
+}
+
+.inputs a {
+    color: #1877f2;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display:block;
+}
+
+.inputs a:hover {
+    text-decoration: underline; 
+}
+
+.inputs hr {
+    border: 1px solid #dadde1;
+}
+
+.inputs .Account a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: #36a420;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 5px;    
+}
+
+.inputs .Account a:hover {
+    background: #42b72a;
+}
+
+.button {
+    text-align: center;
+    height:38px;
+    background-color:#1877f2;
+    border:0;
+    padding-left:15px;
+    padding-right:20px;
+    color:#ffffff;
+ }
+
+ 
